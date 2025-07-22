@@ -52,11 +52,7 @@ background-clip: text;
   animation: titlePulse 1s ease-in-out infinite;
   text-shadow: 0 0 8px rgba(0, 112, 112, 0.3);
   margin-top: 60px;
-  transition: transform 1s ease, text-shadow 1s ease;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  display: inline-block;
-  perspective: 1000px;
+  transition: transform 1s ease-in-out;
 }
 
 .web-title:hover {
@@ -147,7 +143,7 @@ background-clip: text;
 }
 
 .background-wrapper {
-  background-image: url('Images/image3.jpg');
+  background-image: url('images/image3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -171,7 +167,7 @@ iframe {
 }
 
 .hero {
-  background-image: url('Images/Image1.jpg');
+  background-image: url('images/Image1.jpg');
   background-size: cover;
   background-position: center;
   height: 90vh;
