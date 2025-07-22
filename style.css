@@ -244,6 +244,34 @@ iframe {
   justify-content: space-between;
   align-items: center;
 }
+.navbar-container {
+  flex-wrap: wrap;
+}
+
+/* Style the nav links container */
+.navbar-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+/* On mobile: stack items vertically */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0.5rem;
+  }
+
+  .navbar-menu a {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+}
 
 .logo {
   width: 100px; /* or your preferred size */
@@ -306,4 +334,11 @@ form textarea {
   border-radius: 0.5rem;
   font-size: 1rem;
   box-sizing: border-box;
+}
+.about-section {
+  background-image: url('Images/image3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
