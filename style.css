@@ -343,6 +343,3 @@ form textarea {
   min-height: 100vh;
 }
 
-#form-success {
-  display: none;  /* Hidden until form is sent */
-}
