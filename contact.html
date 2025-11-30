@@ -55,6 +55,9 @@ I’m always open to meaningful conversations — especially those that combine 
   const form = document.getElementById('contact-form');
   const successMsg = document.getElementById('form-success');
 
+successMsg.style.display = 'none';
+
+
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
@@ -85,6 +88,5 @@ I’m always open to meaningful conversations — especially those that combine 
     }
   });
 </script>
-
 </body>
 </html>
